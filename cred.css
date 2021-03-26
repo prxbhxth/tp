@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  align-items: center;
+  align-content: center;
+}
+
+h3 {
+  align-self: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
