@@ -12,12 +12,12 @@
     <form action="music.html" class="login-form">
         <h1>Login</h1>
 
-        <div class="txtb">
+        <div>
             <input type="text">
             <span></span>
         </div>
 
-        <div class="txtb">
+        <div>
             <input type="text">
             <span></span>
         </div>
@@ -29,16 +29,5 @@
         </div>
 
     </form>
-
-    <script type="text/javascript">
-        $(".txtb input").on("focus", function() {
-            $(this).addClass("focus");
-        });
-
-        $(".txtb input").on("blur", function() {
-            if($(this).val() == "")
-                $(this).removeClass("focus");
-        });      
-    </script>
 </body>
 </html>
