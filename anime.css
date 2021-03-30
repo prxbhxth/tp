@@ -27,15 +27,50 @@ h4 {
   flex: 1;
 }
 
+.title{
+  font-size: 2em;
+  font-weight: 800;
+}
+
 h3 {
   font-weight: 300;
   align-items: center;
 }
 
 a {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
   font-weight: 800;
-  text-decoration: none;
-  color: white;
+  color: royalblue;
+  overflow: hidden;
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 800;
+  color: royalblue;
+  overflow: hidden;
+  background: linear-gradient(to right, #40E0D0, #FF8C00 50%, #FF0080 50%);
+}
+
+a {
+  /* Same as before */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+}
+
+a {
+  /* Same as before */
+  transition: background-position 275ms ease;
+}
+a:hover {
+  background-position: 0 100%;
 }
 
 li {
@@ -44,6 +79,11 @@ li {
 
 img {
   height: 23px;
+}
+
+ul a{
+  font-weight: 800;
+  font-size: 2em;
 }
 
 ul {
